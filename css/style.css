@@ -1,0 +1,26 @@
+html {
+  font-size: 18px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Dank Mono";
+}
+
+header a {
+  color: #ffffffcc;
+  font-size: 1rem;
+}
+
+header a:hover,
+header a:focus {
+  color: #ffffff;
+}
+
+footer i {
+  font-size: 3rem;
+}
+
+.bg-dark {
+  background-color: #000c1d !important;
+}
