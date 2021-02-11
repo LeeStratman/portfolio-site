@@ -11,6 +11,11 @@ h2 {
   font-size: 1.5rem;
 }
 
+h3 {
+  font-size: 1.25rem;
+  color: #7fdbca;
+}
+
 header a {
   color: #ffffffcc;
   font-size: 1rem;
@@ -49,4 +54,14 @@ footer i {
 main .tab-content,
 form {
   text-align: left !important;
+}
+
+.code-editor ul {
+  padding: 0;
+}
+
+.code-editor li {
+  color: #caece6;
+  color: #cdebf7;
+  list-style: none;
 }
