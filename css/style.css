@@ -1,10 +1,15 @@
+@font-face {
+  font-family: dank;
+  src: url(fonts/Dank-Mono-Regular/6d0dca36f4b308f1b05ac34f8b18c8d7-2.ttf);
+}
+
 html {
   font-size: 18px;
   box-sizing: border-box;
 }
 
 body {
-  font-family: "Dank Mono";
+  font-family: "Dank Mono", dank;
 }
 
 h2 {
@@ -14,6 +19,10 @@ h2 {
 h3 {
   font-size: 1.25rem;
   color: #7fdbca;
+}
+
+p {
+  color: #cdebf7;
 }
 
 header a {
@@ -61,7 +70,6 @@ form {
 }
 
 .code-editor li {
-  color: #caece6;
   color: #cdebf7;
   list-style: none;
 }
@@ -77,4 +85,9 @@ form {
 
 .code-editor {
   margin-bottom: 1rem;
+}
+
+a,
+.highlight {
+  color: #7fdbca;
 }
