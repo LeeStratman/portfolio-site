@@ -7,6 +7,10 @@ body {
   font-family: "Dank Mono";
 }
 
+h2 {
+  font-size: 1.5rem;
+}
+
 header a {
   color: #ffffffcc;
   font-size: 1rem;
@@ -27,4 +31,28 @@ footer i {
 
 .card {
   background-color: #011627 !important;
+}
+
+.sidebar {
+  border-left: 1px solid #5f7e97;
+}
+
+.sidebar .list-group-item {
+  background-color: transparent;
+  text-align: left;
+}
+
+.sidebar .list-group-item.active {
+  border-color: #5f7e97;
+}
+
+.code-editor {
+}
+
+main .tab-content {
+  text-align: left;
+}
+
+.nothing {
+  color: #7fdbca;
 }
