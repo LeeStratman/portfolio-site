@@ -84,7 +84,17 @@ form {
 }
 
 .code-editor {
+  display: flex;
   margin-bottom: 1rem;
+  min-height: 500px;
+}
+
+@media (max-width: 768px) {
+  .code-editor .sidebar {
+    order: -1;
+    border: none;
+    margin: 1rem auto;
+  }
 }
 
 a,
