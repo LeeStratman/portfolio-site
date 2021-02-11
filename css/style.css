@@ -46,13 +46,7 @@ footer i {
   border-color: #5f7e97;
 }
 
-.code-editor {
-}
-
-main .tab-content {
-  text-align: left;
-}
-
-.nothing {
-  color: #7fdbca;
+main .tab-content,
+form {
+  text-align: left !important;
 }
