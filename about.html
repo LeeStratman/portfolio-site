@@ -34,9 +34,40 @@
       <main class="code-editor py-5 row mb-3 h-100">
         <div class="col-md-8 themed-grid-col">
           <h1>About</h1>
+          <div class="headshot-wrapper py-3">
+            <img
+              class="headshot"
+              src="images/headshot.jpeg"
+              alt="Lee Stratman portrait"
+            />
+          </div>
           <div class="tab-content" id="nav-tabContent">
             <div
               class="tab-pane fade show active"
+              id="list-personal"
+              role="tabpanel"
+              aria-labelledby="list-personal-list"
+            >
+              <h2>Personal</h2>
+              <p>
+                Lee Stratman is passionate about creating functionality for
+                websites and developing trusting relationships with his clients.
+                His love of learning and unquenchable curiosity push him to
+                refine his skills. In college he studied physics and was on the
+                men’s cross country and track teams. Later in his academic
+                career he took a computer programming class that left him
+                fascinated and fired up. He wanted to incorporate programming
+                into his life professionally, and a few years later Stratman Web
+                Development was born. Before becoming a web developer, Lee
+                worked as a race timer for Eclipse Timing, where he combined his
+                technological knowledge with his love of running and travel.
+                When he’s away from his computer he enjoys volleyball, disc
+                golfing, running, reading about science, and rocking out to his
+                favorite band, Muse.
+              </p>
+            </div>
+            <div
+              class="tab-pane fade"
               id="list-skills"
               role="tabpanel"
               aria-labelledby="list-skills-list"
@@ -114,6 +145,15 @@
           <div class="pt-3 list-group" id="list-tab" role="tablist">
             <a
               class="list-group-item list-group-item-action active"
+              id="list-personal-list"
+              data-bs-toggle="list"
+              href="#list-personal"
+              role="tab"
+              aria-controls="personal"
+              ><i class="bi bi-code-slash"></i> Personal</a
+            >
+            <a
+              class="list-group-item list-group-item-action"
               id="list-skills-list"
               data-bs-toggle="list"
               href="#list-skills"

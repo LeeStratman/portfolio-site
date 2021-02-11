@@ -65,3 +65,16 @@ form {
   color: #cdebf7;
   list-style: none;
 }
+
+.headshot-wrapper {
+  text-align: center;
+}
+
+.headshot {
+  max-width: 150px;
+  border-radius: 100%;
+}
+
+.code-editor {
+  margin-bottom: 1rem;
+}
