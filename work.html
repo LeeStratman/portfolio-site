@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="./css/style.css" />
     <title>Lee Stratman | Work</title>
   </head>
-  <body class="d-flex text-center text-white bg-dark">
+  <body class="d-flex text-white bg-dark">
     <div class="cover-container d-flex w-100 p-3 mx-auto flex-column">
       <header class="mb-auto">
         <div>
@@ -32,7 +32,7 @@
         </div>
       </header>
       <main class="container py-5">
-        <h1>Work</h1>
+        <h1 class="text-center">Work</h1>
         <div class="py-5 row mb-3">
           <div class="col-md-6 themed-grid-col">
             <div class="card bg-dark">
@@ -43,15 +43,19 @@
               />
               <div class="card-body">
                 <h5 class="card-title">Day Trip Generator</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                <p class="card-text text-justify">
+                  A very simple day trip generator using the browser's dialog
+                  box for user input.
                 </p>
-                <a
-                  href="https://github.com/LeeStratman/day-trip-generator"
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
                   class="btn btn-secondary"
-                  >View Code</a
+                  data-bs-toggle="modal"
+                  data-bs-target="#project-day-trip-generator"
                 >
+                  Learn More
+                </button>
               </div>
             </div>
           </div>
@@ -65,14 +69,18 @@
               <div class="card-body">
                 <h5 class="card-title">Rock Paper Scissors Lizard Spock</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  A command-line variation of the classic Rock Scissors Paper
+                  game.
                 </p>
-                <a
-                  href="https://github.com/LeeStratman/RPSLS"
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
                   class="btn btn-secondary"
-                  >View Code</a
+                  data-bs-toggle="modal"
+                  data-bs-target="#project-rock-paper-scissors-lizard-spock"
                 >
+                  Learn More
+                </button>
               </div>
             </div>
           </div>
@@ -105,6 +113,115 @@
           </div>
         </nav>
       </footer>
+    </div>
+
+    <!-- Day Trip Generator Modal -->
+    <div
+      class="modal fade"
+      id="project-day-trip-generator"
+      tabindex="-1"
+      aria-labelledby="project-day-trip-generator-modalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog bg-dark">
+        <div class="modal-content bg-dark">
+          <div class="modal-header">
+            <h2 class="modal-title" id="project-day-trip-generator-modalLabel">
+              Day Trip Generator
+            </h2>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="w-100"
+              src="images/day-trip-generator.png"
+              alt="day trip generator screenshot"
+            />
+            <p class="p-3">
+              Built with vanilla JavaScript and only using the built-in browser
+              dialog prompt, this application will plan a day trip for you. It
+              randomly selects a destination, restaurant, transportation, and
+              entertainment from a list. Of course, if you are not satisified
+              with the random selection, you may change each selection
+              individually.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <a
+              href="https://github.com/LeeStratman/day-trip-generator"
+              class="btn btn-secondary"
+              >View Repository</a
+            >
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Day Trip Generator Modal -->
+    <div
+      class="modal fade"
+      id="project-rock-paper-scissors-lizard-spock"
+      tabindex="-1"
+      aria-labelledby="project-rock-paper-scissors-lizard-spock-modalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog bg-dark">
+        <div class="modal-content bg-dark">
+          <div class="modal-header">
+            <h2
+              class="modal-title"
+              id="project-rock-paper-scissors-lizard-spock-modalLabel"
+            >
+              Rock Paper Scissors Lizard Spock
+            </h2>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="w-100"
+              src="images/rpsls.png"
+              alt="RPSLS game screenshot"
+            />
+            <p class="p-3">
+              Built with Node.js, this variation of Rock Scissors Paper will
+              allow the user to play with a friend or against the computer. To
+              play, you mush run this application on the comand line using
+              node.js.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <a
+              href="https://github.com/LeeStratman/RPSLS"
+              class="btn btn-secondary"
+              >View Repository</a
+            >
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
