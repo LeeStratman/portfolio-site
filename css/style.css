@@ -21,6 +21,10 @@ h3 {
   color: #7fdbca;
 }
 
+h4 {
+  font-size: 1rem;
+}
+
 p {
   color: #cdebf7;
 }
@@ -65,13 +69,8 @@ form {
   text-align: left !important;
 }
 
-.code-editor ul {
-  padding: 0;
-}
-
 .code-editor li {
   color: #cdebf7;
-  list-style: none;
 }
 
 .headshot-wrapper {
